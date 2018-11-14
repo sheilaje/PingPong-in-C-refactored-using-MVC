@@ -1,0 +1,7 @@
+/Users/Guest/Desktop/Pingpong.Solutions/Pingpong/bin/Debug/netcoreapp1.1/Pingpong.deps.json
+/Users/Guest/Desktop/Pingpong.Solutions/Pingpong/obj/Debug/netcoreapp1.1/Pingpong.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Pingpong.Solutions/Pingpong/obj/Debug/netcoreapp1.1/Pingpong.AssemblyInfo.cs
+/Users/Guest/Desktop/Pingpong.Solutions/Pingpong/bin/Debug/netcoreapp1.1/Pingpong.dll
+/Users/Guest/Desktop/Pingpong.Solutions/Pingpong/bin/Debug/netcoreapp1.1/Pingpong.pdb
+/Users/Guest/Desktop/Pingpong.Solutions/Pingpong/obj/Debug/netcoreapp1.1/Pingpong.dll
+/Users/Guest/Desktop/Pingpong.Solutions/Pingpong/obj/Debug/netcoreapp1.1/Pingpong.pdb
