@@ -2,23 +2,23 @@ namespace Pingpong
 {
   public class Pingpong
   {
-    public bool PingpongCheck(int number)
+    public string PingpongCheck(int number)
     {
       if (number % 3 == 0 && number % 5 != 0)
       {
-        return false;
+        return "ping";
       }else
       if (number % 5 == 0 && number % 3 != 0)
       {
-        return false;
+        return "pong";
       }
       else if (number % 3 == 0 && number % 5 == 0)
       {
-        return false;
+        return "pingpong";
       }
       else
       {
-        return false;
+        return "false";
       }
     }
   }
