@@ -42,7 +42,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_No known Bugs_
+_Compile error "program.cs(16,20): error CS0103: The name `PingpongCheck' does not exist in the current context" shows up, but the program still runs just fine_
 
 ## Support and contact details
 
