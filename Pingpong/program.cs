@@ -13,7 +13,7 @@ namespace  Pingpong
 
       for (int i=1; i<= userInput; i++)
       {
-        string x = PingpongCheck(i);
+        string x = Pingpong.PingpongCheck(i);
         Console.WriteLine(x);
       }
     }

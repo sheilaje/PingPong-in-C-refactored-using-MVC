@@ -1,6 +1,6 @@
 namespace Pingpong
 {
-  public static class Pingpong
+  public class Pingpong
   {
 
     public static string PingpongCheck(int number)
