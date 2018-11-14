@@ -1,8 +1,9 @@
 namespace Pingpong
 {
-  public class Pingpong
+  public static class Pingpong
   {
-    public string PingpongCheck(int number)
+
+    public static string PingpongCheck(int number)
     {
       if (number % 3 == 0 && number % 5 != 0)
       {
@@ -18,7 +19,7 @@ namespace Pingpong
       }
       else
       {
-        return "false";
+        return number.ToString();
       }
     }
   }
