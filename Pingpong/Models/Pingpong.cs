@@ -1,26 +1,43 @@
-namespace Pingpong
-{
-  public class Pingpong
-  {
+using System;
 
-    public static string PingpongCheck(int number)
+namespace Pingpong.Models
+{
+  public class PingPongGenerator
+  {
+    private int _number;
+
+    public int GetInput()
     {
-      if (number % 3 == 0 && number % 5 != 0)
+      return _number;
+    }
+
+    public void SetInput(int newNumber)
+    {
+      _number = newNumber;
+    }
+
+    public string PingpongCheck()
+    {
+      for (int i = 1; i <= _number; i++)
       {
-        return "ping";
-      }else
-      if (number % 5 == 0 && number % 3 != 0)
-      {
-        return "pong";
-      }
-      else if (number % 3 == 0 && number % 5 == 0)
-      {
-        return "pingpong";
-      }
-      else
-      {
-        return number.ToString();
+        if (i % 3 == 0 && i % 5 != 0)
+        {
+          return "ping";
+        }
+        else if (i % 5 == 0 && i % 3 != 0)
+        {
+          return "pong";
+        }
+        else if (i % 3 == 0 && i % 5 == 0)
+        {
+          return "pingpong";
+        }
+        else
+        {
+          return i.ToString();
+        }
       }
     }
+    
   }
 }
